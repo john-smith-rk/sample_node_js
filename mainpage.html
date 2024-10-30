@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Sign In/Up</title>
+    <link href="output.css" rel="stylesheet">
+
+    <style>
+        /* CSS for the content to be animated */
+        #centerdiv {
+            display: none; /* Initially hide the content */
+        }
+    </style>
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="mainpage.js" type="text/javascript"  charset="utf-8"></script>
+</head>
+<body>
+
+<div id="centerdiv" class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8 ">
+
+    <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+        <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 " >Sign In/Up</h2>
+
+    </div>
+
+    <div class="transition-all grid grid-cols-2 gap-4 mt-10 w-full bg-origin-padding">
+
+        <button id="signUp"  class="px-4 py-1 w-full text-sm transition-all duration-150 ease-out text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Sign Up</button> 
+        
+        <button id="signIn" class="px-4 py-1 w-full text-sm transition-all duration-150 ease-out text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2" >Sign in</button>
+  
+    </div>
+
+</div>
+
+
+</body>
+
+
+</html>
